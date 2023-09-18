@@ -1,0 +1,3 @@
+Rope — data structure that can store a string and efficiently cut a part (a substring) of this string and insert it in a different position. 
+This data structure can be enhanced to become persistent — that is, to allow access to the previous versions of the string. 
+These properties make it a suitable choice for storing the text in text editors.
