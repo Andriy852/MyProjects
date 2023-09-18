@@ -1,3 +1,8 @@
 Rope — data structure that can store a string and efficiently cut a part (a substring) of this string and insert it in a different position. 
 This data structure can be enhanced to become persistent — that is, to allow access to the previous versions of the string. 
 These properties make it a suitable choice for storing the text in text editors.
+Task. You are given a string 𝑆 and you have to process 𝑛 queries. Each query is described by three integers 𝑖, 𝑗, 𝑘 and means to cut 
+substring 𝑆[𝑖..𝑗] (𝑖 and 𝑗 are 0-based) from the string and then insert it after the 𝑘-th symbol of the remaining string (if the symbols are numbered from 1). 
+If 𝑘 = 0, 𝑆[𝑖..𝑗] is inserted in the beginning. See the examples for further clarification.
+Input Format. The first line contains the initial string 𝑆. The second line contains the number of queries 𝑞. Next 𝑞 lines contain triples of integers 𝑖, 𝑗, 𝑘.
+
